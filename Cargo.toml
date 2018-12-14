@@ -1,0 +1,10 @@
+[package]
+name = "rust-usb-experiments"
+version = "0.1.0"
+authors = ["ischeinkman <scheinkman.ilan@gmail.com>"]
+
+[dependencies]
+scsi = {git = "https://github.com/ischeinkman/scsi-rs"}
+libusb = "0.3.0"
+fatfs = "0.3"
+mbr-nostd = {git = "https://github.com/ischeinkman/mbr-nostd"}
